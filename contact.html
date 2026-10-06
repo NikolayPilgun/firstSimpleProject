@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Связаться со мной — AARONN</title>
+    <!-- Шрифты из Style Guide макета: Syne (заголовки) + Rubik (текст) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Syne:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <a href="index.html" class="logo">Ааронн</a>
+        <nav class="nav" aria-label="Main navigation">
+          <ul class="nav__list">
+            <li><a href="index.html" class="nav__link">Домой</a></li>
+            <li><a href="about.html" class="nav__link">Обо мне</a></li>
+            <li><a href="works.html" class="nav__link">Проекты</a></li>
+          </ul>
+        </nav>
+        <a href="contact.html" class="btn btn--outline">CONTACT</a>
+      </div>
+    </header>
+    <main>
+      <!-- =====  Page Hero общий заголовок для внутренних страниц ===== -->
+      <section class="page-hero">
+        <div class="container">
+          <h1 class="page-hero__title">Связаться со мной</h1>
+          <p class="page-hero__subtitle">Для любого проекта — просто удар ниже пояса</p>
+          <hr class="divider" />
+        </div>
+      </section>
+      <!-- ===== Контактная форма  ===== -->
+      <section class="contact-section">
+        <div class="container contact-section__inner">
+          <!-- Левая часть: Заголовок -->
+          <h2 class="contact-section__title">
+            Свяжитесь <br />
+            с <br />нами
+          </h2>
+          <!-- Правая часть: Форма -->
+          <form action="#" class="contact-form">
+            <div class="form-group">
+              <label for="name" class="form-label">Имя</label>
+              <input type="text" id="name" name="name" class="form-input" required />
+            </div>
+            <div class="form-group">
+              <label for="subject" class="form-label">Предмет</label>
+              <input type="text" id="subject" name="subject" class="form-input" required />
+            </div>
+            <div class="form-group">
+              <label for="massage" class="form-label">Сообщение</label>
+              <textarea
+                name="massage"
+                id="massage"
+                class="form-input form-textarea"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--orange">Отправлять</button>
+          </form>
+        </div>
+      </section>
+      <!-- ===== Большое фото и инфо  ===== -->
+      <section class="contact-media">
+        <div class="container">
+          <img src="img/contact-laptop.png" alt="Laptop" class="contact-media__img" />
+          <div class="contact-info">
+            <p class="contact-info__item">Street Avenue 21, CA</p>
+            <p class="contact-info__item">+9 0283353</p>
+            <a href="mailto:info@aaronn.com" class="contact-info__item contact-info__link"
+              >info@aaronn.com</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ===== Footer  ===== -->
+    <footer class="footer" id="contact">
+      <div class="container footer__top">
+        <h2 class="footer__title">У вас есть идея для проекта?</h2>
+        <a href="mailto:info@aaronn.com" class="footer__email">info@aaronn.com</a>
+      </div>
+      <div class="container footer__bottom">
+        <ul class="footer__social">
+          <li><a href="#" class="footer__link">Twitter</a></li>
+          <li><a href="#" class="footer__link">Dribbble</a></li>
+          <li><a href="#" class="footer__link">GitHub</a></li>
+        </ul>
+        <p class="footer__copy">© 2026 Ааронн. Все права защищены.</p>
+      </div>
+    </footer>
+  </body>
+</html>

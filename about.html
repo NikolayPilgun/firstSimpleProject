@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Обо мне - Ааронн</title>
+
+    <!-- Шрифты из Style Guide макета: Syne (заголовки) + Rubik (текст) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Syne:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <a href="index.html" class="logo">Ааронн</a>
+        <nav class="nav" aria-label="Main navigation">
+          <ul class="nav__list">
+            <li><a href="index.html" class="nav__link">Домой</a></li>
+            <li><a href="about.html" class="nav__link">Обо мне</a></li>
+            <li><a href="works.html" class="nav__link">Проекты</a></li>
+          </ul>
+        </nav>
+        <a href="contact.html" class="btn btn--outline">CONTACT</a>
+      </div>
+    </header>
+    <main>
+      <!-- 1. Заголовок страницы -->
+      <section class="page-hero">
+        <div class="container">
+          <h1 class="page-hero__title">Обо мне</h1>
+          <p class="page-hero__subtitle">Немного о себе</p>
+          <hr class="divider" />
+        </div>
+      </section>
+      <!-- 2 Миссия (две колонки) -->
+      <section class="mission">
+        <div class="container mission__inner">
+          <h2 class="mission__title">Моя миссия — сделать дизайн проще.</h2>
+          <div class="mission__text">
+            <p>
+              Создавайте индивидуальный дизайн с помощью AARONN, который привлечет больше
+              посетителей, чем любой другой сайт. Благодаря множеству уникальных дизайнов вы сможете
+              без труда выбрать подходящий логотип.
+            </p>
+            <p>
+              Создавайте индивидуальные посадочные страницы с логотипами с помощью AARONN, которые
+              привлекают больше посетителей, чем любой другой сайт. Благодаря множеству вариантов вы
+              легко сможете создать логотип без проблем.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- 3. Галерея с оранжевыми акцентами -->
+      <section class="about-gallery">
+        <div class="container about-gallery__inner">
+          <!-- Первое фото -->
+          <div class="about-gallery__item">
+            <!-- Оранжевый декор  -->
+            <div class="decor-pill decor-pill--vertical"></div>
+            <img src="img/about-1.png" alt="Aaron Portrait" class="about-gallery__img" />
+          </div>
+          <!-- Второе фото -->
+          <div class="about-gallery__item">
+            <img src="img/about-2.png" alt="Aaron working" class="about-gallery__img" />
+            <!-- Оранжевый декор  -->
+            <div class="decor-pill decor-pill--horizontal"></div>
+          </div>
+        </div>
+      </section>
+      <!-- 4. Социальные сети -->
+      <section class="follow-me">
+        <div class="container">
+          <h2 class="follow-me__title">Подписывайтесь на меня:</h2>
+          <ul class="follow-me__list">
+            <li><a href="#" class="follow-me__link">DRIBBLE</a></li>
+            <li><a href="#" class="follow-me__link">TWITTER</a></li>
+            <li><a href="#" class="follow-me__link">FACEBOOK</a></li>
+            <li><a href="#" class="follow-me__link">INSTAGRAM</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- ===== Footer  ===== -->
+    <footer class="footer" id="contact">
+      <div class="container footer__top">
+        <h2 class="footer__title">У вас есть идея для проекта?</h2>
+        <a href="mailto:info@aaronn.com" class="footer__email">info@aaronn.com</a>
+      </div>
+      <div class="container footer__bottom">
+        <ul class="footer__social">
+          <li><a href="#" class="footer__link">Twitter</a></li>
+          <li><a href="#" class="footer__link">Dribbble</a></li>
+          <li><a href="#" class="footer__link">GitHub</a></li>
+        </ul>
+        <p class="footer__copy">© 2026 Ааронн. Все права защищены.</p>
+      </div>
+    </footer>
+  </body>
+</html>

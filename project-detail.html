@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Детали проекта — AARONN</title>
+    <!-- Шрифты из Style Guide макета: Syne (заголовки) + Rubik (текст) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Syne:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <a href="index.html" class="logo">Ааронн</a>
+        <nav class="nav" aria-label="Main navigation">
+          <ul class="nav__list">
+            <li><a href="index.html" class="nav__link">Домой</a></li>
+            <li><a href="about.html" class="nav__link">Обо мне</a></li>
+            <li><a href="works.html" class="nav__link">Проекты</a></li>
+          </ul>
+        </nav>
+        <a href="contact.html" class="btn btn--outline">CONTACT</a>
+      </div>
+    </header>
+    <main>
+      <!-- =====  Page Hero общий заголовок для внутренних страниц ===== -->
+      <section class="page-hero">
+        <div class="container">
+          <h1 class="page-hero__title">Детали проекта</h1>
+          <p class="page-hero__subtitle">Подробности о проекте</p>
+          <hr class="divider" />
+        </div>
+      </section>
+      <!-- ===== Контент проекта (используем семантический тег article)  ===== -->
+      <article class="project-detail">
+        <div class="container">
+          <!-- Главное фото -->
+          <img src="img/project-main.png" alt="Project Cover" class="project-detail__main-img" />
+          <!-- Текстовый блок 1 -->
+          <div class="project-detail__text-block">
+            <h2>История проекта</h2>
+            <p>
+              То, что фотография имеет разное значение для разных людей, — одна из многих причин ее
+              популярности. Фотография стала настолько важной частью нашей жизни, что сейчас сложно
+              представить мир без нее.
+            </p>
+            <p>
+              Мы не можем представить себе свадьбу без возможности запечатлеть ее на пленку, мы не
+              смогли бы вспомнить, как росли наши дети, или как проходили праздники, если бы у нас
+              не было фотографий.
+            </p>
+          </div>
+          <!-- Галерея из 2 фото -->
+          <div class="project-detail__gallery">
+            <img src="img/project-sub1.png" alt="Detail 1" class="project-detail__gallery-img" />
+            <img src="img/project-sub2.png" alt="Detail 2" class="project-detail__gallery-img" />
+          </div>
+          <!-- Текстовый блок 2 -->
+          <div class="project-detail__text-block">
+            <h2>День первый</h2>
+            <p>
+              Нас повсюду преследуют фотографии в газетах, журналах, рекламе на телевидении и в
+              интернете, но мы все равно хотим еще больше.
+            </p>
+            <p>
+              А что помогает добиться хорошего результата? Мы рассмотрим эти вопросы и некоторые
+              возможности фотографии и объясним, что это сочетание творческого мышления, визуального
+              дизайна, технических и организационных навыков.
+            </p>
+          </div>
+        </div>
+      </article>
+      <!-- =====  Навигация между проектами ===== -->
+      <section class="project-nav">
+        <div class="container project-nav__inner">
+          <a href="#" class="project-nav__link"><span>&larr;</span> ПРЕДЫДУЩАЯ РАБОТА</a>
+          <a href="#" class="project-nav__link">СЛЕДУЮЩАЯ РАБОТА <span>&rarr;</span></a>
+        </div>
+      </section>
+      <!-- ===== ДРУГИЕ ПРОЕКТЫ ===== -->
+      <section class="other-projects">
+        <div class="container">
+          <h2 class="other-projects__title">Другие проекты</h2>
+          <div class="other-projects__grid">
+            <a href="#" class="other-card">
+              <div class="other-card__img-wrap">
+                <img src="img/other1.png" alt="Project 1" class="other-card__img" />
+              </div>
+              <h3 class="other-card__title">Логотип проекта 1</h3>
+              <p class="other-card__category">Маркировка</p>
+            </a>
+            <a href="#" class="other-card">
+              <div class="other-card__img-wrap">
+                <img src="img/other2.png" alt="Project 2" class="other-card__img" />
+              </div>
+              <h3 class="other-card__title">Логотип проекта 2</h3>
+              <p class="other-card__category">Маркировка</p>
+            </a>
+            <a href="#" class="other-card">
+              <div class="other-card__img-wrap">
+                <img src="img/other3.png" alt="Project 3" class="other-card__img" />
+              </div>
+              <h3 class="other-card__title">Логотип проекта 3</h3>
+              <p class="other-card__category">Маркировка</p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ===== Footer  ===== -->
+    <footer class="footer" id="contact">
+      <div class="container footer__top">
+        <h2 class="footer__title">У вас есть идея для проекта?</h2>
+        <a href="mailto:info@aaronn.com" class="footer__email">info@aaronn.com</a>
+      </div>
+      <div class="container footer__bottom">
+        <ul class="footer__social">
+          <li><a href="#" class="footer__link">Twitter</a></li>
+          <li><a href="#" class="footer__link">Dribbble</a></li>
+          <li><a href="#" class="footer__link">GitHub</a></li>
+        </ul>
+        <p class="footer__copy">© 2026 Ааронн. Все права защищены.</p>
+      </div>
+    </footer>
+  </body>
+</html>

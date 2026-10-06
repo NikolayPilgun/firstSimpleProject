@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Портфолио дизайнера и разработчика." />
+    <title>Портфолио</title>
+
+    <!-- Шрифты из Style Guide макета: Syne (заголовки) + Rubik (текст) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Syne:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <a href="index.html" class="logo">Ааронн</a>
+        <nav class="nav" aria-label="Main navigation">
+          <ul class="nav__list">
+            <li><a href="index.html" class="nav__link">Домой</a></li>
+            <li><a href="about.html" class="nav__link">Обо мне</a></li>
+            <li><a href="works.html" class="nav__link">Проекты</a></li>
+          </ul>
+        </nav>
+        <a href="contact.html" class="btn btn--outline">CONTACT</a>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero__title">Дизайнер и разработчик продуктов</h1>
+          <p class="hero__text">Я проектирую и создаю чистые, современные цифровые продукты.</p>
+          <a href="#contact" class="btn">Давай поговорим</a>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container about__inner">
+          <div class="about__content">
+            <h2 class="about__title">Обо мне</h2>
+            <p class="about__text">
+              Я дизайнер и разработчик, специализирующийся на простых и полезных интерфейсах.
+            </p>
+          </div>
+          <img src="img/portrait.png" alt="Portrait of Aaronn" class="about__image" />
+        </div>
+      </section>
+      <section class="projects" id="projects">
+        <div class="container">
+          <h2 class="projects__title">Проекты</h2>
+          <ul class="projects__list">
+            <li class="project-card">
+              <img src="img/project-1.png" alt="Project 1" class="project-card__image" />
+              <h3 class="project-card__title">Первый проект</h3>
+              <p class="project-card__text">Веб-дизайн и веб-разработка</p>
+            </li>
+            <li class="project-card">
+              <img src="img/project-2.png" alt="Project 2" class="project-card__image" />
+              <h3 class="project-card__title">Проект Два</h3>
+              <p class="project-card__text">Пользовательский интерфейс мобильного приложения</p>
+            </li>
+            <li class="project-card">
+              <img src="img/project-3.png" alt="Project 3" class="project-card__image" />
+              <h3 class="project-card__title">Проект Три</h3>
+              <p class="project-card__text">Идентичность бренда</p>
+            </li>
+            <li class="project-card">
+              <img src="img/project-4.png" alt="Project 4" class="project-card__image" />
+              <h3 class="project-card__title">Проект «Четыре»</h3>
+              <p class="project-card__text">Целевая страница</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="testimonial">
+        <div class="container">
+          <blockquote class="testimonial__quote">
+            «Работа с Аароном была потрясающим опытом — быстро, чисто, профессионально».
+          </blockquote>
+          <p class="testimonial__author">— Jane Doe, CEO</p>
+        </div>
+      </section>
+    </main>
+    <!-- ===== Footer  ===== -->
+    <footer class="footer" id="contact">
+      <div class="container footer__top">
+        <h2 class="footer__title">У вас есть идея для проекта?</h2>
+        <a href="mailto:info@aaronn.com" class="footer__email">info@aaronn.com</a>
+      </div>
+      <div class="container footer__bottom">
+        <ul class="footer__social">
+          <li><a href="#" class="footer__link">Twitter</a></li>
+          <li><a href="#" class="footer__link">Dribbble</a></li>
+          <li><a href="#" class="footer__link">GitHub</a></li>
+        </ul>
+        <p class="footer__copy">© 2026 Ааронн. Все права защищены.</p>
+      </div>
+    </footer>
+  </body>
+</html>
